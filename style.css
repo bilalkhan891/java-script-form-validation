@@ -1,0 +1,32 @@
+*{
+	--formWidth: 300px;
+}
+body{
+	display: flex;
+}
+input{
+	display: block;
+	margin-top: 10px;
+	border-radius: 5px;
+	height: 25px;
+	max-width: 100%;
+	width: 100%;
+}
+input[type="radio"]{
+	display: inline;
+	max-width: 10% !important;
+	width: 20% !important;
+	max-height: 20px;
+}
+section{
+	margin: auto;
+	align-items: center;
+	max-width: var(--formWidth);
+	min-width: var(--formWidth);
+	width: var(--formWidth);
+	padding: 20px;
+
+}
+form{
+	align-items: center;
+}

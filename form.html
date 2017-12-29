@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Form Validtiaon</title>
 </head>
 <body>
 	<section>
 		<h1>Javascript Form Validation</h1>
 		<form>
-			<label for="firstname">First Name</label>
-			<input type="text" name="firstname" id="fName">
-			<label for="lastname">Last Name</label>
-			<input type="text" name="lastname" id="lName">
-			<input type="radio" name="male">Male
-			<input type="radio" name="female">Female
-			<label for="dob">Date of Birth</label>
-			<input type="date" name="dob" id="dob">
-			<label for="email">Email</label>
-			<input type="email" name="Email" id="email">
-			<label for="Password">password</label>
-			<input type="password" name="Password" id="password">
-			<label for="rePassword">Enter your Password again</label>
-			<input type="password" name="rePassword" id="repassword">
-
+			
+			<input placeholder="First Name" type="text" name="firstname" id="fName">
+		
+			<input placeholder="Last Name" type="text" name="lastname" id="lName">
+			<form>
+				<input  type="radio" name="male">Male
+				<input  type="radio" name="female">Female <br>
+			</form>
+			
+			<input placeholder="Date of Birth" type="date" name="dob" id="dob">
+			<input placeholder="Email" type="email" name="Email" id="email">
+			
+			<input placeholder="Passowrd" type="password" name="Password" id="password">
+			<input placeholder="Password" type="password" name="rePassword" id="repassword">
+			<input  type="submit" id="btn"></input>
 		</form>
 	</section>
 
